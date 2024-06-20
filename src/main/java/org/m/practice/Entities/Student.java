@@ -1,4 +1,4 @@
-package Entities;
+package org.m.practice.Entities;
 
 import jakarta.persistence.*;
 
@@ -18,8 +18,8 @@ public class Student {
     public Student() {
     }
 
-    public Student(long id, String firstName, String lastName, String email) {
-        this.id = id;
+    public Student( String firstName, String lastName, String email) {
+
         this.firstName = firstName;
         this.lastName = lastName;
         this.email = email;

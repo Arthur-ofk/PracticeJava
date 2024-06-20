@@ -1,8 +1,7 @@
-package Repository;
+package org.m.practice.Repository;
 
-import Entities.Student;
+import org.m.practice.Entities.Student;
 import org.springframework.data.jpa.repository.JpaRepository;
-import org.springframework.stereotype.Repository;
 
 
 public interface StudentRepository extends JpaRepository<Student,Long> {
