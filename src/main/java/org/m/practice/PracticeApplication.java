@@ -19,7 +19,7 @@ public class PracticeApplication implements CommandLineRunner {
     @Override
     public void run(String... args) throws Exception {
 
-        Student student1 = new Student("AArt", "TSURK","12@example");
-        studentRepository.save(student1);
+       // Student student1 = new Student("AArt", "TSURK","12@example");
+       // studentRepository.save(student1);
     }
 }
