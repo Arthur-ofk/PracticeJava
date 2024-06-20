@@ -48,6 +48,10 @@
                    <td th:text = "${student.getFirstName()}">
                 <td th:text = "${student.getLastName()}">
                 <td th:text = "${student.getEmail()}">
+                <td>
+                <a th:href= "@{/students/edit/{id}(id=${student.id})}"
+                class="btn btn-primary">Update</a>
+            </td>
             </tr>
             </tbody>
         </table>

@@ -7,4 +7,6 @@ import java.util.List;
 public interface StudentService {
     List<Student> GetAllStudents();
     Student saveStudent(Student student);
+    Student getByID(Long id);
+    Student updateStudent(Student student);
 }
